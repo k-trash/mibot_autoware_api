@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+	<node_container pkg="rclcpp_components" exec="component_container_mt" name="test_api_container" namespace="" args="">
+		<composable_node pkg="mibot_autoware_api" plugin="mibot_autoware_api::TestApi" name="test_api"/>
+	</node_container>
+</launch>
